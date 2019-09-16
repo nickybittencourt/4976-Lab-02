@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    string[] months = {"January", "February", "March", "April"};
+}
+
+<div class="text-center">
+    
+    <h4>Months</h4>
+
+    <ul>
+        @foreach (var item in months)
+        {
+            <li>@item</li>
+        }
+    </ul>
+</div>
